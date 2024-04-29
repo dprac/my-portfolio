@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, Garamond, serif;
 }
 
 .container {
@@ -10,22 +10,32 @@ body {
 }
 
 .sidenav {
-    width: 250px;
-    background-color: #333;
-    padding-top: 20px;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #90CAF9;
+  overflow-x: hidden;
 }
 
+
+/* Side navigation links */
 .sidenav a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
+  color:#1976D2;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
 
+
+/* Change color on hover */
 .sidenav a:hover {
-    background-color: #555;
+  background-color: #1976D2 ;
+  color: white;
 }
+
 
 .main-content {
     flex: 1;
