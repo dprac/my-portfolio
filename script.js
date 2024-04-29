@@ -1,4 +1,7 @@
-function showContent(contentId) {
+function showContent(contentId, event) {
+    // Prevent the default behavior of the anchor tag
+    event.preventDefault();
+
     // Hide all content sections
     var contentSections = document.querySelectorAll('.content-section');
     contentSections.forEach(function(section) {
