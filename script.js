@@ -31,9 +31,5 @@ function showContent(contentId) {
     // Show the selected content section
     var selectedContent = document.getElementById(contentId);
     selectedContent.style.display = 'block';
-
-    // Update the main content with the selected content
-    var mainContent = document.getElementById('mainContent');
-    mainContent.innerHTML = selectedContent.innerHTML;
 }
-
+}
