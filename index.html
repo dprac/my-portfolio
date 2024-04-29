@@ -9,11 +9,12 @@
 <body>
     <div class="container">
         <div class="sidenav">
-            <a href="#">About</a>
-            <a href="#">Project 1</a>
-            <a href="#">Project 2</a>
-            <a href="#">Project 3</a>
+            <a href="#" onclick="showContent('about')">About</a>
+            <a href="#" onclick="showContent('project1')">Project 1</a>
+            <a href="#" onclick="showContent('project2')">Project 2</a>
+            <a href="#" onclick="showContent('project3')">Project 3</a>
         </div>
+        <div class="main-content" id="mainContent">
         
         <div class="main-content">
             <section id="About">
@@ -26,24 +27,9 @@
                 <img src="assets/panda-rage.gif"
             </section>
 
-        <div class="side-content">
-          <section id="Project 1">
-            <h2>Project 1</h2>
-            <p>This is the content for section 1.</p>
+       
         </div>
-
-        <div class="side-content">
-          <section id="Project 2">
-            <h2>Project 1</h2>
-            <p>This is the content for section 1.</p>
-        </div>
-                
-        <div class="side-content">
-          <section id="Project 3">
-            <h2>Project 1</h2>
-            <p>This is the content for section 1.</p>
-        </div>
-                
-    </div>
+     </div>
+        <script src="script.js"></script>
 </body>
 </html>
