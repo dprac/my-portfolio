@@ -38,8 +38,9 @@ body {
 
 
 .main-content {
-    flex: 1;
-    padding: 20px;
+  margin-left: 200px;
+  padding-left: 20px;
+}
 }
 
 /* Style the headings and paragraphs within sections */
