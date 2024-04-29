@@ -7,14 +7,13 @@ html lang="en">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidenav">
-            <a href="#" onclick="showContent('about')">About</a>
-            <a href="#" onclick="showContent('project1')">Project 1</a>
-            <a href="#" onclick="showContent('project2')">Project 2</a>
-            <a href="#" onclick="showContent('project3')">Project 3</a>
-        </div>
-        <div class="main-content" id="mainContent">
+   <div class="sidenav">
+    <a href="#" onclick="showContent('about', event)">About</a>
+    <a href="#" onclick="showContent('project1', event)">Project 1</a>
+    <a href="#" onclick="showContent('project2', event)">Project 2</a>
+    <a href="#" onclick="showContent('project3', event)">Project 3</a>
+</div>
+<div class="main-content" id="mainContent">
         
                 
 <div id="about" class="content-section" style="display: none;">
@@ -29,7 +28,10 @@ html lang="en">
 
 <div id="project1" class="content-section" style="display: none;">
     <h2>Project 1</h2>
-    <p>This is the content for Project 1.</p>
+     <img src="assets/Homebound Poem.png"
+    
+    <p>Project 1 is a piece of poetry based on the concept of "uncreative writing".</p>
+    <p>The poem is based on texts I sent my partner on her way home, and the poem itself is based on our own home, Albany Park.</p>
 </div>
 
 <div id="project2" class="content-section" style="display: none;">
