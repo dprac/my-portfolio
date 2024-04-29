@@ -7,16 +7,15 @@ html lang="en">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div class="sidenav">
-    <a href="#" id="aboutLink">About</a>
-    <a href="#" id="project1Link">Project 1</a>
-    <a href="#" id="project2Link">Project 2</a>
-    <a href="#" id="project3Link">Project 3</a>
-</div>
-<div class="main-content" id="mainContent">
-        
   
-<div id="aboutContent" class="content-section">
+<div class="sidenav">
+  <a href="#" onclick="showContent('content1')">Link 1</a>
+  <a href="#" onclick="showContent('content2')">Link 2</a>
+  <a href="#" onclick="showContent('content3')">Link 3</a>
+</div>
+
+<div class="content">
+  <div class="content-section" id="content1">
     <h2>About</h2>
     <p>My name is Daven Prachan, and I am a multimedia artist.</p>
                 <p>My works involve evoking discussions around mental health, personal awareness, and temporality.</p>
@@ -24,29 +23,23 @@ html lang="en">
                 <p>I am a noob, and coding is not my first, second, or even third language. Consider this a warning.</p>
 
                 <img src="assets/panda-rage.gif">
-</div>
-
-<div id="project1Content" class="content-section">
-    <h2>Project 1</h2>
+  </div>
+  
+  <div class="content-section" id="content2">
+   <h2>Project 1</h2>
      <img src="assets/Homebound Poem.png">
         
         <p>Project 1 is a piece of poetry based on the concept of "uncreative writing".</p>
         <p>The poem is based on texts I sent my partner on her way home, and the poem itself is based on our own home, Albany Park.</p>
+  </div>
+  
+  <div class="content-section" id="content3">
+    <h2>Content 3</h2>
+    <p>This is the content for section 3.</p>
+  </div>
 </div>
 
-<div id="project2Content" class="content-section">
-    <h2>Project 2</h2>
-    <p>This is the content for Project 2.</p>
-</div>
-
-<div id="project3Comtent" class="content-section">
-    <h2>Project 3</h2>
-    <p>This is the content for Project 3.</p>
-</div>
-
-       
-        </div>
-     </div>
-        <script src="script.js"></script>
 </body>
 </html>
+<div class="main-content" id="mainContent">
+ 
